@@ -64,9 +64,12 @@
 		line-height: 24px;
 	   }
 	
-	   /* Video pitch and action */
+	   /* Main pitch */
 	   .pitch {
-		padding: 2% 0%;
+		padding: 20px 30px 20px 30px;
+		line-height: 1.75;
+		font-size: 24px;
+		font-weight: bold;
 	   }
 	   .order {
 		padding: 2% 0%;
@@ -75,7 +78,7 @@
 		background-color: #343434;
 		padding: 3% 0%;
 	   }
-	   .navigation, .pitch, .section1, .section2, .faq, .footer {
+	   .navigation, .section1, .section2, .faq, .footer {
 		padding: 10px 0px 10px 0px;
 	   }
 	   .video {
@@ -190,25 +193,21 @@
 		   <p class="lead">Quickly find people to create, audit and enhance your data.</p>
 		</div>
 	   </div>
-	   <div class="row-fluid pitch">
-		<div class="span5 offset1">
+	   <div class="row-fluid">
+		<div class="span6">
 		   <!-- img class="img-polaroid" alt="Placeholder" src="http://placehold.it/480x300" -->
 		   <video poster="images/cs_intro.jpg" id="Promo" width="480" height="310" controls>
 			<source src="videos/big-buck-bunny_trailer.webm" type="video/webm"; codecs="vp8;vorbis">
 		   </video>
 		</div>
 	
-		<!-- Define a new 'actions' div to contain statistics, order and share buttons -->
-		<div class="span5 copy copy-right">
-		   <h3>
+		<div class="span6 pitch">
 			Your business relies on data -- lots of it.   Yet you're spending time
 			and money on data quality: scrubbing data so your database is
 			clean and your algorithms do the right thing.  We can solve this problem
 			for you.
-		   </h3>
 		</div>
-		</div>
-	   </div><!-- container -->
+	   </div>
 
 	   <!-- Beyond this part the marketing copy begings. -->
 
@@ -320,7 +319,7 @@
 		</div>
 	   </div>
 
-	</div>
+	</div><!-- container-->
 
 	<!--- Google Universal Analytics tracking code -->
 	<script>
